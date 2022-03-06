@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.examen_pizza">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Examen_pizza">
+        <activity
+            android:name=".MenuPrincipal"
+            android:exported="true" />
+        <activity
+            android:name=".Formulario_Menu"
+            android:exported="true" />
+        <activity
+            android:name=".Finalizar_Pedido"
+            android:exported="true" />
+        <activity
+            android:name=".menubebidas"
+            android:exported="true" />
+        <activity
+            android:name=".menupizza"
+            android:exported="true" />
+        <activity
+            android:name=".mensaje"
+            android:exported="true" />
+        <activity
+            android:name=".Formulario_Registro"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

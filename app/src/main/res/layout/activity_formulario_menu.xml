@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formulario_Menu"
+    android:background="#EAC558">
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:id="@+id/ir_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ir al Menu"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#E35325"
+        android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/btnsalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsalir"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#E35325"
+        android:layout_marginLeft="200dp"/>
+
+</RelativeLayout>

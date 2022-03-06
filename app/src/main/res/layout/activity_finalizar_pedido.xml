@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Finalizar_Pedido"
+    android:background="#4D03A9F4">
+
+    <TextView
+        android:id="@+id/fnpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Finalizar pedido"
+        android:layout_marginLeft="120dp"
+        android:textSize="25dp"
+        android:textColor="#036007"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/msjfinalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/msjfinalizar"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Su total a pagar es: "
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#20A325"
+        android:onClick="calcular"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/btnenviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar peidido"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="right"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#FFC107"/>
+
+    <Button
+        android:id="@+id/btncalcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar pedido"
+        android:layout_marginTop="340dp"
+        android:layout_gravity="right"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="160dp"
+        android:backgroundTint="#B30513"/>
+
+</RelativeLayout>

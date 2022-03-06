@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">examen_pizza</string>
+    <string name="user">Usuario</string>
+    <string name="edituser">escribe tu usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="editpass">escribe tu contraseña</string>
+    <string name="btninicio">Iniciar sesion</string>
+    <string name="btnsalir">Salir</string>
+    <string name="ir_registro">Registrate</string>
+    <string name="IB1">pizzas</string>
+    <string name="IB2">bebidas</string>
+    <string name="msjuser">Hola Estimado Cliente ¿Que te podemos llevar hasta tu casa este dia? Por favor selecciona:</string>
+    <string name="msjfinalizar">Estimado cliente has seleccionado la pizza: acompañada de la bebida: seleccionada</string>
+</resources>

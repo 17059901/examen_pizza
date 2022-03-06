@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menubebidas"
+    android:background="#D1B9C1">
+
+    <TextView
+        android:id="@+id/bebidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Bebidas"
+        android:layout_marginLeft="150dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#D10D0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/check_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coca-Cola"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/coca"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/coca"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:id="@+id/cant4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="20"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/check_1"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+
+    <CheckBox
+        android:id="@+id/check_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fanta"
+        android:textSize="20dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/fanta"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/fanta"
+        android:layout_marginTop="220dp" />
+
+    <TextView
+        android:id="@+id/cant5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="20"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/check_2"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+
+
+    <CheckBox
+        android:id="@+id/check_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sprite"
+        android:textSize="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:id="@+id/sprite"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/sprite"
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:id="@+id/cant6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="20"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/check_3"
+        android:textSize="18dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/fnpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="490dp"
+        android:text="Finalizar pedido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#8AE61E"/>
+
+    <Button
+        android:id="@+id/btnpizzas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="490dp"
+        android:text="Pizzas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#E4E44B1C"/>
+
+</RelativeLayout>
